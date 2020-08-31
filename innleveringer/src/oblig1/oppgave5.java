@@ -9,7 +9,7 @@ public class oppgave5 {
 			int tall = Integer.parseInt(showInputDialog("Oppgi karakter: "));
 			if (tall > 100 || tall < 0) {
 				showMessageDialog(null, "Verdi ikke gyldig");
-				break; // Break er opp for tolkning
+				i--;
 			} else {
 				if (tall >= 90) {
 					showMessageDialog(null, "Karakteren din er A");
